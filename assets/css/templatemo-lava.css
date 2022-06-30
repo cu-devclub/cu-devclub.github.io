@@ -181,6 +181,21 @@ a.main-button:hover {
   background-color: #f1556a;
 }
 
+a.main-button-not-ready {
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 15px 25px;
+  background-color: #B1B1B1;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
 button.main-button {
   outline: none;
   border: none;
@@ -228,6 +243,12 @@ button.main-button:hover {
   text-align: center;
 }
 
+.left-heading {
+  position: left;
+  align-self: left;
+  margin-top: 5%;
+  transform: perspective(1px) translateY(-30%) !important;
+}
 
 /* 
 ---------------------------------------------
@@ -758,10 +779,20 @@ about
 }
 
 .features-item {
+  margin-top: 10px;
   border-radius: 5px;
   padding: 60px 30px;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.features-item h1 {
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  color: #191a20;
 }
 
 .features-item h2 {
@@ -793,6 +824,10 @@ about
   display: inline-block;
 }
 
+.features-item .main-button-not-ready {
+  margin-top: 35px;
+  display: inline-block;
+}
 
 /*
 ---------------------------------------------
