@@ -15,7 +15,7 @@ Table of contents
 04. header
 05. welcome
 06. features
-07. testimonials
+07. teams
 08. contact
 09. footer
 10. preloader
@@ -831,7 +831,7 @@ about
 
 /*
 ---------------------------------------------
-promotion
+projects
 ---------------------------------------------
 */
 
@@ -845,36 +845,36 @@ promotion
   margin-top: -200px;
 }
 
-#promotion {
+#projects {
   padding: 100px 0px;
 }
 
-#promotion .left-image {
+#projects .left-image {
   align-self: center;
   margin-top: 40px;
 }
 
-#promotion .right-text ul {
+#projects .right-text ul {
   padding: 0;
   margin-top: 40px;
 }
 
-#promotion .right-text ul li {
+#projects .right-text ul li {
   display: inline-block;
   margin-bottom: 60px;
 }
 
-#promotion .right-text ul li:last-child {
+#projects .right-text ul li:last-child {
   margin-bottom: 0px;
 }
 
-#promotion .right-text img {
+#projects .right-text img {
   display: inline-block;
   float: left;
   margin-right: 30px;
 }
 
-#promotion .right-text h4 {
+#projects .right-text h4 {
   font-size: 22px;
   color: #1e1e1e;
   margin-bottom: 15px;
@@ -884,7 +884,7 @@ promotion
 
 /*
 --------------------------------------------
-testimonials
+teams
 --------------------------------------------
 */
 .right-image-decor {
@@ -898,17 +898,17 @@ testimonials
   margin-top: 0px;
 }
 
-#testimonials {
+#teams {
   padding-top: 100px;
   position: relative;
   z-index: 9;
 }
 
-#testimonials .item {
+#teams .item {
   position: relative;
 }
 
-#testimonials .item .testimonial-content {
+#teams .item .testimonial-content {
   background: rgb(244,129,63);
   background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
   margin-left: 60px;
@@ -917,36 +917,36 @@ testimonials
   border-radius: 5px;
 }
 
-#testimonials .item .testimonial-content ul li {
+#teams .item .testimonial-content ul li {
   display: inline-block;
   margin: 0px 1px;
 }
 
-#testimonials .item .testimonial-content ul li i {
+#teams .item .testimonial-content ul li i {
   color: #fff;
   font-size: 13px;
 }
 
-#testimonials .item .testimonial-content h4 {
+#teams .item .testimonial-content h4 {
   font-size: 22px;
   margin-top: 20px;
   color: #fff;
 }
 
-#testimonials .item .testimonial-content p {
+#teams .item .testimonial-content p {
   color: #fff;
   font-style: italic;
   font-weight: 200;
   margin: 20px 0px 15px 0px;
 }
 
-#testimonials .item .testimonial-content span {
+#teams .item .testimonial-content span {
   color: #fff;
   font-weight: 200;
   font-size: 13px;
 }
 
-#testimonials .author img {
+#teams .author img {
   max-width: 120px;
   margin-bottom: -60px;
 }
