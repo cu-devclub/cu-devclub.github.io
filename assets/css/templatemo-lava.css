@@ -851,11 +851,12 @@ promotion
 
 #promotion .left-image {
   align-self: center;
+  margin-top: 40px;
 }
 
 #promotion .right-text ul {
   padding: 0;
-  margin: 0;
+  margin-top: 40px;
 }
 
 #promotion .right-text ul li {
@@ -894,7 +895,7 @@ testimonials
   width: 100%;
   display: inline-block;
   height: 110%;
-  margin-top: -200px;
+  margin-top: 0px;
 }
 
 #testimonials {
